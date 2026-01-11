@@ -20,6 +20,11 @@
         <java.version>17</java.version>
         <!-- - - - - - Tests - - - - - -->
         <junit.jupiter.version>5.9.3</junit.jupiter.version>
+        <!-- - - - - - Sonar Cloud - - - - - -->
+        <sonar.host.url>=https://sonarcloud.io</sonar.host.url> 
+        <sonar.organization>=<organization-name created on steps above></sonar.organization> 
+        <sonar.projectKey>=<key created on steps above></sonar.projectKey> 
+        <sonar.login>=<token generated on steps above></sonar.login>
         <!-- - - - - - Sonar - - - - - -->
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
